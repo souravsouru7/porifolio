@@ -16,6 +16,17 @@ body {
   @apply text-gray-900 antialiased;
 }
 
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-animate {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
 .gradient-bg {
   background: radial-gradient(circle at top left, #4f46e5 0%, transparent 50%),
               radial-gradient(circle at top right, #06b6d4 0%, transparent 50%),

@@ -22,6 +22,41 @@ export const resumeData = {
   },
   projects: [
     {
+      title: "Bakery CRM",
+      role: "Full Stack Developer (Freelance)",
+      description: "Billing and Inventory Management System for Bakery",
+      links: {
+        demo: "https://bakerycrmfrotned.vercel.app/login",
+        github: "https://github.com/yourusername/bakerycrm",
+      },
+      highlights: [
+        "Developed a comprehensive billing and inventory management system using MERN stack",
+        "Implemented features for product management, stock tracking, and daily income reporting",
+        "Built automated bill generation functionality",
+        "Integrated with MongoDB for data persistence",
+        "Created dashboard for real-time sales and inventory analytics",
+        "Utilized Material UI for modern, responsive interface",
+        "Implemented secure user authentication and role-based access control"
+      ]
+    },
+    {
+      title: "JK Interior",
+      role: "Frontend Developer (Freelance)",
+      description: "Static Website for Interior Design Company",
+      links: {
+        demo: "https://jk-interior.vercel.app/",
+        github: "https://github.com/yourusername/jk-interior",
+      },
+      highlights: [
+        "Designed and developed a modern, responsive website using React",
+        "Implemented smooth animations using Framer Motion",
+        "Created an intuitive portfolio showcase for interior design projects",
+        "Optimized performance and loading times",
+        "Built with React Router for seamless navigation",
+        "Mobile-first responsive design approach"
+      ]
+    },
+    {
       title: "Barbezz",
       role: "Full Stack Developer",
       description: "Salon Service Booking",
@@ -85,6 +120,19 @@ export const resumeData = {
     }
   ],
   experience: [
+    {
+      role: "Freelance Full Stack Developer",
+      company: "Self-Employed",
+      location: "Remote",
+      period: "2024",
+      highlights: [
+        "Developed a Bakery CRM system with billing and inventory management features",
+        "Created a static website for an interior design company using React",
+        "Managed client relationships and project deliverables",
+        "Implemented solutions using MERN stack, Material UI, and Framer Motion",
+        "Delivered projects on time and within client requirements"
+      ]
+    },
     {
       role: "MERN Stack Development",
       company: "Brototype",
